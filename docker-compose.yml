@@ -1,0 +1,11 @@
+version: "2.4"
+services:
+  waffle:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: tail -f /dev/null
+    env_file:
+      - .env
+    volumes:
+      - .:/srv/app:cached
