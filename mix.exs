@@ -1,4 +1,4 @@
-defmodule Waffle.Mixfile do
+defmodule Waffle.Storage.S3.Mixfile do
   use Mix.Project
 
   @version "0.0.1"
@@ -36,7 +36,6 @@ defmodule Waffle.Mixfile do
     [
       main: "Waffle S3",
       extras: [
-        "documentation/examples/local.md",
         "documentation/examples/s3.md"
       ]
     ]
