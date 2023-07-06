@@ -34,7 +34,7 @@ defmodule Waffle.Storage.S3.Mixfile do
 
   defp docs do
     [
-      main: "Waffle S3",
+      main: "Waffle.Storage.S3",
       extras: [
         "documentation/examples/s3.md"
       ]
